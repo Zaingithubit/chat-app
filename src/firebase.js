@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB0BG1zOjL0N4Ao6St5di6rhm-DdQrENMI",
+  apiKey: process.env.REACT_APP_CHAT_APP,
   authDomain: "zain-chat-app.firebaseapp.com",
   projectId: "zain-chat-app",
   storageBucket: "zain-chat-app.appspot.com",
